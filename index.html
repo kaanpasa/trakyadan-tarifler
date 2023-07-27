@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trakya'dan Tarifler</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/a.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/logo.png" alt="Trakya'dan Tarifler">
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <!--links-->
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Anasayfa</a>
+        <a href="about.html" class="nav-link">Hakkımızda</a>
+        <a href="tags.html" class="nav-link">Etiketler</a>
+        <a href="recipes.html" class="nav-link">Tarifler</a>
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn">İletişim</a>
+        </div>
+      </div>
+      <!--end of links-->
+    </div>
+  </nav>
+  <!-- end of Navbar -->
+
+  <!--main-->
+  <main class="page">
+    <!--header-->
+    <header class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1>Trakya'dan Tarifler</h1>
+          <h4>Yöresel Tarifler Sizlerle</h4>
+        </div>
+      </div>
+    </header>
+    <!-- end of header-->
+    <!-- recipes container-->
+    <section class="recipes-container">
+      <!--tag container-->
+      <div class="tags-container">
+        <h4>Recipes</h4>
+        <div class="tags-list">
+          <a href="tag-template.html">Etli Yemekler (2)</a>
+          <a href="tag-template.html">Sebze Yemekleri (3)</a>
+          <a href="tag-template.html">Fırın Yemekleri (2)</a>
+          <a href="tag-template.html">Kahvaltılık (2)</a>
+        </div>
+      </div>
+      <!--end of tag container-->
+
+      <!-- recipes list -->
+      <div class="recipes-list">
+        <!-- single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/tavuk-kapama.jpg"
+            class="img recipe-img"
+            alt=""
+          />
+          <h5>Tavuk Kapama</h5>
+          <p>Hazırlık: 20 dakika | Pişirme: 90 dakika</p>
+        </a>
+        <!-- end of single recipe -->
+        <!-- single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/tekirdag-kofte.jpg"
+            class="img recipe-img"
+            alt=""
+          />
+          <h5>Tekirdağ Köfte</h5>
+          <p>Hazırlık: 15 dakika | Pişirme: 15 dakika</p>
+        </a>
+        <!-- end of single recipe -->
+        <!-- single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/edirne-cigeri.jpg"
+            class="img recipe-img"
+            alt=""
+          />
+          <h5>Edirne Tava Ciğeri</h5>
+          <p>Hazırlık: 10 dakika | Pişirme: 5 dakika</p>
+        </a>
+        <!-- end of single recipe -->
+        <!-- single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/hayrabolu-tatlisi.jpg"
+            class="img recipe-img"
+            alt=""
+          />
+          <h5>Banana Pancakes</h5>
+          <p>Hazırlık: 15 dakika | Pişirme: 50 dakika</p>
+        </a>
+        <!-- end of single recipe -->
+      </div>
+      <!-- end of recipes list -->
+    </section>
+    <!-- end of recipes container-->
+  </main>
+  <!--end of main-->
+  <!--footer-->
+  <footer class="page-footer">
+    <p>&copy; <span id="date"></span> <span class="footer-logo">Trakya'dan Tarifler</span> | <a
+        href="https://github.com/kaanpasa" target="_blank">Kaan Pasa</a> tarafından yapılmıştır.</p>
+  </footer>
+  <!--end of footer-->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
